@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-left: 5rem;
+}
+.logo>a>img{
+    height: 20px;
+    margin: 8px;
+}
+.logo>a{
+    text-decoration: none;
+    margin-right: 2rem;
+    }
+.logo>a:hover{
+    color: blue;
+}
+.container>.navigation>img{
+    height: 50px;
+    margin: 0 70px;
+    
+}
+.navigation{
+    display: flex;
+    margin: 20px 15px;
+}
+.navigation>form>select{
+    padding: 14px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.navigation>form>input{
+    padding: 14px;
+    width: 500px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 0px 10px !important;
+
+}
+button{
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.short{
+    width: 50%;
+    margin: 0 30px;
+    display: flex;
+    cursor: pointer;
+}
+.short>.search{
+    width: 40px;
+    height: 40px;
+    border-color: black;
+   margin: 7px;
+}
+
+.first{
+    color: rgb(11, 10, 10) ;
+    margin: 0 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list .row .col-12{
+    display: flex;
+}
+.list li{
+    display: inline;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px ;
+}
+.card>img{
+    object-fit: cover;
+    height: 250px;
+}
+.im>img{
+    width: 100%;
+    height: 230px;
+}
+.olpers{
+    margin: 10px 300px ;
+}
+.card-img-top{
+    height: 200px !important;
+}
+.container>.lastimage {
+   display: flex;
+    margin: 53px;
+}
+.card{
+cursor: pointer; 
+}
+
+.finish{
+    padding: 20px;
+}
+.custom{
+    display: flex;
+    padding: 10px;
+  background-color: gainsboro;
+    margin: 0 80px;
+}
+.custom a{
+    text-decoration: none;
+    margin: 0 60px;
+    color: black;
+    
+}
+.custom ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo  {
+margin: 0 10px;
+      display: flex;
+      flex-direction: row;
+    }
+    .navigation{
+        display: block;
+        margin:  15px;
+    }
+    .navigation>form>select{
+        width: 300px;
+        margin: 10px;
+    }
+    .navigation>form>input{
+        width:350px ;
+    }
+    .list .row .col-12{
+        display: block;
+       word-spacing: -5px;
+    }
+  
+    .olpers{
+        object-fit: cover;
+        background-color: red;
+        margin: 0 6px;
+        width: 100%;
+    }
+    .lastimage{
+        display: flex;
+        flex-direction: column;
+    }
+    .lastimage img{
+        height: 200px;
+        width: 150%;
+        margin: 0 -60px;
+    }
+    .finish{
+width: 120%;
+        margin: 0 -60px;
+}
+    .custom{
+        background-color:gainsboro;
+        width: 115%;
+      margin: -30px 1px;
+    }
+    .custom a{
+        margin: 0px 2px;
+    }
+  }
